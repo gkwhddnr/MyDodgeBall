@@ -8,6 +8,6 @@ public class DodgeBall2 : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "UMG", "Slate", "SlateCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HTTPServer", "WebSockets", "Json", "JsonUtilities", "HeadMountedDisplay", "UMG", "Slate", "SlateCore" });
 	}
 }
